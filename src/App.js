@@ -20,6 +20,7 @@ render(){
   return <div>
 <p>unmounting</p>
 <br/>
+console.log("testing git commit");
 {this.state.classComponent}
   
 <MyComponent></MyComponent>
